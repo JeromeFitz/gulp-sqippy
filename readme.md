@@ -1,8 +1,8 @@
 # gulp-sqippy
 
-Gulpified [`sqip`](https://www.npmjs.com/package/sqip) that allows full customization of sqip's existing options, and adds a few more. It creates a new SVG file in the stream, named the same as the source (with "`.svg`" extension, of course).
+Gulpified [`sqip`](https://www.npmjs.com/package/sqip) that allows full customization of sqip's existing options, and adds a few more. It creates a new SVG file in the stream, named the same as the source (with `.svg` extension, of course).
 
-**Bonus:** You can pass `type: 'svg_base64encoded'` and output a "`.txt`" file with the base64 code to inline in an `img` tag (as opposed to a file link to `".svg"`).
+**Bonus:** You can pass `type: 'svg_base64encoded'` and output a `.txt` file with the base64 code to inline in an `img` tag (as opposed to a file link to `.svg`).
 
 ## Note
 
