@@ -12,25 +12,25 @@ The default options below make a good placeholder image, but you could make it e
 
 ### The (optional) options are
 
-- **appendName** - text to append to the end of the new SVG filename (string)
-- **blur** - blur factor (numeric, default is `10`)
-- **includeSource** - also pass the source image file through in the stream (boolean, default is false)
-- **mode** - mode code (defined below, default is `5`)
-- **prependName** - text to prepend to the front of the new SVG filename (string)
-- **primitives** - number of primitives a.k.a. the shapes that make up the image (integer, default is `20`)
-- **type** - number of primitives a.k.a. the shapes that make up the image (string, default is `final_svg`)
+- **appendName** - text to append to the end of the new SVG filename (`string`, default is `''`)
+- **blur** - blur factor (`numeric`, default is `10`)
+- **includeSource** - also pass the source image file through in the stream (`boolean`, default is `false`)
+- **mode** - mode code, defined below (`integer`, default is `5`)
+- **prependName** - text to prepend to the front of the new SVG filename (`string`, default is `''`)
+- **primitives** - number of primitives a.k.a. the shapes that make up the image (`integer`, default is `20`)
+- **type** - number of primitives a.k.a. the shapes that make up the image (`string`, default is `'final_svg'`)
 
 #### Mode specifies the base shape for primitives. The mode codes are
 
-- 0 - combo
-- 1 - triangle
-- 2 - rectangle
-- 3 - ellipse
-- 4 - circle
-- 5 - rotated rectangle
-- 6 - beziers
-- 7 - rotated ellipse
-- 8 - polygon
+- 0: Combo
+- 1: Triangle
+- 2: Rectangle
+- 3: Ellipse
+- 4: Circle
+- 5: Rotated Rectangle
+- 6: Beziers
+- 7: Rotated Ellipse
+- 8: Polygon
 
 ## Example
 
