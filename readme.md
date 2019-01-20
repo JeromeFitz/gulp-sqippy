@@ -18,7 +18,7 @@ The default options below make a good placeholder image, but you could make it e
 - **mode** - mode code, defined below (`integer`, default is `5`)
 - **prependName** - text to prepend to the front of the new SVG filename (`string`, default is `''`)
 - **primitives** - number of primitives a.k.a. the shapes that make up the image (`integer`, default is `20`)
-- **type** - number of primitives a.k.a. the shapes that make up the image (`string`, default is `'final_svg'`)
+- **type** - create either `.svg` or `.txt` (base64) (`string`, default is `'final_svg'`)
 
 #### Mode specifies the base shape for primitives. The mode codes are
 
